@@ -5,16 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>숫자 맞추기 게임</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>숫자 맞추기 게임</h1>
-    <div id="result">결과는?</div>
-    <div id="chance">남은 기회 : 5회</div>
-    <input type="number" id="user-input" placeholder="1부터 100 사이 입력" />
-    <button id="btn-go">Go!</button>
-    <button id="btn-reset">리셋!</button>
+    <div class="container">
+      <h1 class="title">술게임</h1>
+      <h1 class="sub-title"><span>신나는</span> 업&다운</h1>
+      <div class="result-area">
+        <img
+          src="https://media1.giphy.com/media/7mHTSb5tSI5Yc0xhAO/200w.webp?cid=ecf05e47xchaeyxphh5eawv9cq4edanv9ilj1hwultxsu819&rid=200w.webp&ct=g"
+          class="main-img"
+        />
+        <h1 id="result">과연 당신의 운명은?</h1>
+      </div>
 
+      <h1 id="chance">남은 기회 : 5회</h1>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <input
+            type="number"
+            class="form-control mb-3"
+            id="user-input"
+            placeholder="1부터 100까지 숫자 입력"
+          />
+        </div>
+        <div class="col-md-2">
+          <button
+            type="button"
+            class="btn btn-success btn-style mb-3"
+            id="btn-go"
+          >
+            Go!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-warning btn-style mt-3" id="btn-reset">
+      리셋
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
   </body>
 </html>
