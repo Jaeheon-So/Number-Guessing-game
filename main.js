@@ -10,6 +10,12 @@ let leftChance = 5;
 let numHistory = [];
 
 btnGo.addEventListener("click", play);
+userInput.addEventListener("keyup", function (e) {
+  if (e.keyCode === 13) {
+    play(e);
+  }
+});
+
 btnReset.addEventListener("click", reset);
 userInput.addEventListener("focus", function () {
   userInput.value = "";
