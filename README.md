@@ -1,7 +1,8 @@
 # Number-Guessing-game
 ![Number_Guessing_game](https://user-images.githubusercontent.com/79908684/154975901-05c76458-95b9-498a-8e0b-0350f1fa946b.PNG)
-술게임 Up Down에서 영감을 받은 프로젝트입니다.
+UP & Down 게임을 구현했습니다.
 
+* 링크 : https://jaeheon-so.github.io/Number-Guessing-game/
 ## 기능
 * 컴퓨터는 게임이 시작할때 랜덤한 숫자를 뽑는다.
 * 유저는 숫자를 입력할 수 있다.
